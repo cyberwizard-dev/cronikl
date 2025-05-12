@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\Scheduler;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', \App\Http\Livewire\Scheduler::class);
+Route::get('/', Scheduler::class);
